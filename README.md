@@ -1,24 +1,24 @@
 # Project: Data Warehouse
 
----
+
 
 ## Summary
 
----
+
 
 As a Data Engineer of a music streaming app startup company named Sparkify, I was tasked to build an ETL pipeline to extract JSON data from S3 and load the data to Amazon Redshift. I was also tasked to transform the data into fact table and dimensional table so that the analytical team could query the data more effectively.
 
 
 ## How to run the Python scripts
 
----
+
 
 To run the python scripts, first you must run the create_tables.py in your console to create the tables in the Redshift cluster. Next you must run the etl.py in your console to load the data from S3 to Redshift.
 
 
 ## Explanation of the files
 
----
+
 
 #### sql_queries.py
 
